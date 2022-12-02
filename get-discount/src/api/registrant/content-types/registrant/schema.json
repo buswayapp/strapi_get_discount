@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registrants",
+  "info": {
+    "singularName": "registrant",
+    "pluralName": "registrants",
+    "displayName": "Registrants"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
